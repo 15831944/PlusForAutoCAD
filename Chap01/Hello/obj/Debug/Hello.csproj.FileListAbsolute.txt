@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Chap01\Hello\bin\Debug\Hello.dll
+C:\Users\Administrator\Desktop\Chap01\Hello\bin\Debug\Hello.pdb
+C:\Users\Administrator\Desktop\Chap01\Hello\obj\Debug\Hello.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap01\Hello\obj\Debug\Hello.dll
+C:\Users\Administrator\Desktop\Chap01\Hello\obj\Debug\Hello.pdb

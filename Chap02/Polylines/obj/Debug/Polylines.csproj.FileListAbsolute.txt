@@ -1,0 +1,10 @@
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\bin\Debug\Polylines.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\bin\Debug\Polylines.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\bin\Debug\DotNetARX.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\bin\Debug\DotNetARX.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\bin\Debug\DotNetARX.xml
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\obj\Debug\Polylines.csprojAssemblyReference.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\obj\Debug\Polylines.csproj.CoreCompileInputs.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\obj\Debug\Polylines.csproj.CopyComplete
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\obj\Debug\Polylines.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Polylines\obj\Debug\Polylines.pdb

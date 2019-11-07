@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetARX</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetARX.ArcTools">
+            <summary>
+            添加三点创建圆弧
+            </summary>
+        </member>
+        <member name="M:DotNetARX.ArcTools.CreatArc(Autodesk.AutoCAD.DatabaseServices.Arc,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>
+            根据圆弧上三点创建圆弧
+            </summary>
+            <param name="arc">圆弧实体</param>
+            <param name="startPoint">圆弧的起始点</param>
+            <param name="pointOnArc">圆弧上的点</param>
+            <param name="endPoint">圆弧的终止点</param>
+        </member>
+        <member name="T:DotNetARX.CircleTools">
+            <summary>
+            根据圆周上任意三点绘制圆形
+            </summary>
+        </member>
+        <member name="M:DotNetARX.CircleTools.CreateCircle(Autodesk.AutoCAD.DatabaseServices.Circle,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>
+            使用Geometry命名空间中的几何类CircularArc3d类来依据圆周上任意三点创建园
+            </summary>
+            <param name="circle">圆形实体</param>
+            <param name="pt1">圆上第一个点</param>
+            <param name="pt2">圆上第二个点</param>
+            <param name="pt3">圆上第三个点</param>
+            <returns></returns>
+        </member>
+        <member name="T:DotNetARX.EntTools">
+            <summary>
+            对实体对象进行移动、复制、旋转、缩放、镜像等操作
+            </summary>
+        </member>
+        <member name="M:DotNetARX.EntTools.Move(Autodesk.AutoCAD.DatabaseServices.ObjectId,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>移动实体对象</summary>
+            <param name="id">实体的ObjectId</param>
+            <param name="sourcePt">移动的源点</param>
+            <param name="targetPt">移动的目标点</param>
+        </member>
+        <member name="M:DotNetARX.EntTools.Move(Autodesk.AutoCAD.DatabaseServices.Entity,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>移动实体对象（利用Entity类的IsNewObject属性实现判断实体是否被添加到数据库中）</summary>
+            <param name="ent">需要移动的实体</param>
+            <param name="sourcePt">移动的源点</param>
+            <param name="targetPt">移动的目标点</param>
+        </member>
+        <member name="M:DotNetARX.EntTools.Copy(Autodesk.AutoCAD.DatabaseServices.ObjectId,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>用于复制实体对象</summary>
+            <param name="id">实体的ObjectId</param>
+            <param name="sourcePt">移动的源点</param>
+            <param name="targetPt">移动的目标点</param>
+            <returns>返回添加到模型空间中的实体</returns>
+        </member>
+        <member name="M:DotNetARX.EntTools.Rotate(Autodesk.AutoCAD.DatabaseServices.ObjectId,Autodesk.AutoCAD.Geometry.Point3d,System.Double)">
+            <summary>用于旋转实体对象</summary>
+            <param name="id">实体的ObjectId</param>
+            <param name="basePt">旋转基点</param>
+            <param name="angle">旋转角度</param>
+        </member>
+        <member name="M:DotNetARX.EntTools.Scale(Autodesk.AutoCAD.DatabaseServices.ObjectId,Autodesk.AutoCAD.Geometry.Point3d,System.Double)">
+            <summary>用于缩放实体对象</summary>
+            <param name="id">实体的ObjectId</param>
+            <param name="basePt">缩放基点</param>
+            <param name="scaleFactor">缩放比例</param>
+        </member>
+        <member name="M:DotNetARX.EntTools.Mirror(Autodesk.AutoCAD.DatabaseServices.ObjectId,Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d,System.Boolean)">
+            <summary>用于镜像实体对象</summary>
+            <param name="id">实体的ObjectId</param>
+            <param name="mirrorPt1">镜像轴的第一点</param>
+            <param name="mirrorPt2">镜像轴的第二点</param>
+            <param name="eraseSourceObject">是否删除源对象</param>
+             <returns>返回添加到模型空间中的实体</returns>
+        </member>
+        <member name="T:DotNetARX.GeTools">
+            <summary>
+            用于计算从第一点到第二点所确定的矢量与x轴正方向的夹角
+            </summary>
+        </member>
+        <member name="M:DotNetARX.GeTools.AngleFromXAxis(Autodesk.AutoCAD.Geometry.Point3d,Autodesk.AutoCAD.Geometry.Point3d)">
+            <summary>
+            用于计算从第一点到第二点所确定的矢量与x轴正方向的夹角
+            </summary>
+            <param name="pt1">起始点</param>
+            <param name="pt2">终止点</param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetARX.GeTools.DegreeToRadian(System.Double)">
+            <summary>
+            用于将角度值转换为弧度值
+            </summary>
+            <param name="angle">角度值</param>
+            <returns></returns>
+        </member>
+        <member name="T:DotNetARX.PolylineTools">
+            <summary>
+            使用多段线创建矩形、正多边形、园、圆弧
+            </summary>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatPolyline(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2dCollection)">
+            <summary>
+            通过二点集合创建多段线
+            </summary>
+            <param name="pline">多段线实体对象</param>
+            <param name="pts">多段线点的集合</param>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatPolyline(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2d[])">
+            <summary>
+            重载CreatPolyline扩展函数，使其能接受不固定的二维点
+            </summary>
+            <param name="pline">多段线实体</param>
+            <param name="pts">二维点集合</param>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatRectangle(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2d,Autodesk.AutoCAD.Geometry.Point2d)">
+            <summary>
+            通过两个对角点来创建矩形
+            </summary>
+            <param name="pline">多段线实体对象</param>
+            <param name="pt1">矩形第一个对角点</param>
+            <param name="pt2">矩形第二个对角点</param>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatePolygon(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2d,System.Int32,System.Double)">
+            <summary>
+            根据中心点、边数和外接圆半径来创建正多边形
+            </summary>
+            <param name="pline">多段线实体</param>
+            <param name="centerPoint">正多边形中心点</param>
+            <param name="number">正多边形边数</param>
+            <param name="radius">正多边形外接圆半径</param>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatePolyCircle(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2d,System.Double)">
+            <summary>
+            根据圆心和半径创建多段线形式的园
+            </summary>
+            <param name="pline">多段线实体</param>
+            <param name="centerPoint">圆心</param>
+            <param name="radius">半径</param>
+        </member>
+        <member name="M:DotNetARX.PolylineTools.CreatePolyArc(Autodesk.AutoCAD.DatabaseServices.Polyline,Autodesk.AutoCAD.Geometry.Point2d,System.Double,System.Double,System.Double)">
+            <summary>
+            根据圆心、半径、起始角度和终止角度创建多段线形式的园弧
+            </summary>
+            <param name="pline">多段线实体</param>
+            <param name="centerPoint">圆弧的圆心</param>
+            <param name="radius">圆弧的半径</param>
+            <param name="startAngle">圆弧的开始角度</param>
+            <param name="endAngle">圆弧的终止角度</param>
+        </member>
+        <member name="T:DotNetARX.Tools">
+            <summary>
+            将实体添加到模型空间
+            </summary>
+        </member>
+        <member name="M:DotNetARX.Tools.AddToModelSpace(Autodesk.AutoCAD.DatabaseServices.Database,Autodesk.AutoCAD.DatabaseServices.Entity)">
+            <summary>
+            将实体添加到模型空间
+            </summary>
+            <param name="db">数据库对象</param>
+            <param name="ent">要添加的实体</param>
+            <returns>返回添加到模型空间中的实体</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Chap01\InitAndOpt\obj\Debug\InitAndOpt.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap01\InitAndOpt\bin\Debug\InitAndOpt.dll
+C:\Users\Administrator\Desktop\Chap01\InitAndOpt\bin\Debug\InitAndOpt.pdb
+C:\Users\Administrator\Desktop\Chap01\InitAndOpt\obj\Debug\InitAndOpt.dll
+C:\Users\Administrator\Desktop\Chap01\InitAndOpt\obj\Debug\InitAndOpt.pdb

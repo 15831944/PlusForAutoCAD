@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\Chap02\Lines\bin\Debug\Lines.dll
+C:\Users\Administrator\Desktop\Chap02\Lines\bin\Debug\Lines.pdb
+C:\Users\Administrator\Desktop\Chap02\Lines\obj\Debug\Lines.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap02\Lines\obj\Debug\Lines.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Chap02\Lines\obj\Debug\Lines.dll
+C:\Users\Administrator\Desktop\Chap02\Lines\obj\Debug\Lines.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\bin\Debug\Lines.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\bin\Debug\Lines.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\obj\Debug\Lines.csprojAssemblyReference.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\obj\Debug\Lines.csproj.CoreCompileInputs.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\obj\Debug\Lines.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\obj\Debug\Lines.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\bin\Debug\DotNetARX.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\bin\Debug\DotNetARX.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\bin\Debug\DotNetARX.xml
+D:\程序设计\【AutoCAD二次开发】书本代码\Chap02\Lines\obj\Debug\Lines.csproj.CopyComplete

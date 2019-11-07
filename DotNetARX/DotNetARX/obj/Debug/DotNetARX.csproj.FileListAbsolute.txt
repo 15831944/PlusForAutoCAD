@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\bin\Debug\DotNetARX.xml
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\bin\Debug\DotNetARX.dll
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\bin\Debug\DotNetARX.pdb
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\obj\Debug\DotNetARX.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\obj\Debug\DotNetARX.dll
+C:\Users\Administrator\Desktop\DotNetARX\DotNetARX\obj\Debug\DotNetARX.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\bin\Debug\DotNetARX.xml
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\bin\Debug\DotNetARX.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\bin\Debug\DotNetARX.pdb
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\obj\Debug\DotNetARX.csprojAssemblyReference.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\obj\Debug\DotNetARX.csproj.CoreCompileInputs.cache
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\obj\Debug\DotNetARX.dll
+D:\程序设计\【AutoCAD二次开发】书本代码\DotNetARX\DotNetARX\obj\Debug\DotNetARX.pdb
